@@ -1,9 +1,29 @@
 body {
-	background-color: #ccc;
+	background-image: url("../img/1.png");
 }
 
-container {
-	height: 500px;	
+#content {
+	background-color: #fff;
+	min-height: 550px;	
+}
+header {
+	
+}
+.footer {
+	margin-top: 30px;
+	position: relative;
+}
+.footer p {
+	text-align: center;
+}
+.addr {
+	margin-top: 20%;
+}
+.addr p {
+	text-align: center;
+}
+.pull-right {
+	margin-right: 150px;
 }
 #tap {
 	width: 100%;
