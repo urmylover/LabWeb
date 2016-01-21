@@ -15,11 +15,11 @@ body {
 }
 @media screen and (max-width: 900px){
 	.header {
-		background:url(../img/mobi.png) no-repeat;
+		background:url(../img/mobi350.png) no-repeat;
 	}
 }
 .footer {
-	margin-top: 25px;
+	margin-top: 10px;
 	position: relative;
 
 }
@@ -43,9 +43,10 @@ body {
 
 }
 #xiaoxun {
-	margin-left: 50%;
-	transform: translateX(-140px);
+	display: block;
+	margin: 0 auto;
 }
+
 i {
 	margin-right: 10px;
 }
