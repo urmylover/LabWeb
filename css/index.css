@@ -3,18 +3,30 @@ body {
 }
 
 #content {
-	background-color: #fff;
+	background-image: url(../img/grunge_wall.png);
 	min-height: 550px;	
 }
-header {
-	
+.header {
+	width: 100%;
+	height: 50px;
+	background:url(../img/mobi800.png) no-repeat;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 900px){
+	.header {
+		background:url(../img/mobi.png) no-repeat;
+	}
 }
 .footer {
-	margin-top: 30px;
+	margin-top: 25px;
 	position: relative;
+
 }
 .footer p {
 	text-align: center;
+	margin-bottom: 0;
+	bottom: 0;
 }
 .addr {
 	margin-top: 20%;
@@ -23,9 +35,17 @@ header {
 	text-align: center;
 }
 .pull-right {
-	margin-right: 150px;
+	margin-right: 10%;
 }
 #tap {
 	width: 100%;
-	height:30px;
+	height:1px;
+
+}
+#xiaoxun {
+	margin-left: 50%;
+	transform: translateX(-140px);
+}
+i {
+	margin-right: 10px;
 }
